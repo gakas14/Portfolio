@@ -1,0 +1,180 @@
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+
+ /* Name */
+
+#name{
+    color:white;
+}
+
+#name:hover {
+  color: #ff4c68;
+}
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color:#343a40;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid{
+
+  padding: 5% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+
+/*nav_bar_id{
+    background-color: #e8e8e8;
+    color: #495464;
+}*/
+.navbar {
+   color: #e8e8e8;
+   background-color: #495464;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+/* Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+.download-button:hover {
+  color: #ff4c68;
+}
+
+#nav_bar_id {
+    adding-bottom: 0px;
+}
+/* About Me Section */
+
+#title {
+  background-color: #fff;
+  color: #495464;
+  position:relative;
+  text-align: center;
+  background-image: url('https://images.unsplash.com/photo-1484100356142-db6ab6244067?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=100');
+  background-size: 100%
+
+}
+
+#title .container-fluid {
+  padding: 10% 15% 10%;
+}
+
+/* Service Section */
+
+#service {
+  background-color: #f4f4f2;
+  padding-top: 5%;
+}
+
+
+#portfolio {
+    background-color: #5f9ea0;
+}
+
+.card{
+
+}
+
+
+
+/* Contact Section */
+#contact {
+     background-color:#e8e8e8;
+    padding:7% 15%;
+}
+
+.contact-block:hover{
+    background-color: #5f9ea0;
+    color: #f0f8ff;
+}
+
+
+/* Title Image */
+
+
+/* Features Section */
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: #5f9ea0;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+
+/* CTA Section */
+
+
+/* Footer Section */
+
+#footer {
+   color: #fff;
+   background-color: #495464;
+   padding: 1%;
+}
+
+
+
+@media (max-width: 1028px){
+
+
+}

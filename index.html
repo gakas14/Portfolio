@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>AbdoulKaled</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolled" id="nav_bar_id">
+
+        <a class="navbar-brand" href="#title" id="name">AbdoulKaled</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+          <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+              <a class="nav-link" href="#title">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Hire Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#service">Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+              <li class="nav-item">
+              <a class="nav-link" href="#blog">Blog</a>
+            </li>
+          </ul>
+
+        </div>
+      </nav>
+
+
+    <section class="jumbotron" id="title">
+
+        <div class="container-fluid">
+
+
+        <!-- About Me Section Title -->
+
+            <div class="row">
+
+                <div class="col-lg-12" id="text_title">
+                        <!--<img  src="images/IMG.jpg" class="img-fluid" alt="Responsive image" style="position: absolute;">-->
+
+                    <h1 class="big-heading">MY NAME IS ABDOUL KALED</h1>
+                    <h5>A DATA SCIENTIST AND  PYTHON DEVELOPER</h5>
+                    <button type="button" href="#contact" class="btn btn-dark btn-lg download-button"><i class="fas fa-id-card-alt"></i> Hire Me</button>
+                    <button type="button" href="#portfolio" class="btn btn-outline-light btn-lg download-button"><i class="fas fa-tasks"></i> My Projects</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Service Section -->
+    <section class="white-section" id="service">
+         <h1 style="margin-bottom: 0px;">What I do well</h1>
+        <div class="container-fluid">
+            <div class="row">
+                <!--<div class="section-header animatedParent">-->
+                <div class="feature-box col-lg-4">
+                    <i class="icon fas fa-info-circle fa-7x"></i>
+                    <h3 class="feature-title">Data Science</h3>
+                    <p>If your project involves data, I CAN HELP, if you don't have any data, I'll scrape some for you.
+                        If you data is very raw, I'll be able to clean it analyze it, provide useful insights, and create stunning visualizations.
+                        If you need a machine learning model, I'll use state of the art techniques to develop the best model possible.
+                    </p>
+                </div>
+
+                <div class="feature-box col-lg-4">
+                    <!--<img src="images/Web scraping_icon.png">-->
+                    <i class="icon fas fa-blog fa-7x"></i>
+                    <h3 class="feature-title">Web Scraping</h3>
+                    <p>By using Scrapy, Requests, Beautiful Soup, Selenium I can scrape any type of data.</p>
+                </div>
+
+                <div class="feature-box col-lg-4">
+                    <i class="icon fab fa-python fa-7x"></i>
+                    <h3 class="feature-title">Web development</h3>
+                    <p>Crafting websites fully responsive to any device. Web design and developing are based on Python, CSS, HTML, BOOTSTRAP, JavaScript.</p>
+                </div>
+               <!--</div>-->
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <!--Portfolio -->
+    <section class="white-section" id="portfolio">
+        <div class="container-fluid">
+            <!--<div class="section-header">-->
+                <h1>My Projects</h1>
+            <!--</div>-->
+
+                <!--Creating a pop up model for each project-->
+                <div class="modal" id="mymodal2">
+                    <div class="model-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button class="close" type="button" data-dismiss="modal">X</button>
+                                <h2 class="modal-title">Dr Ignaz Semmelweis</h2>
+                            </div>
+                            <div class="modal-body">
+                                <p>Dr Ignaz Semmelweis was a Hungarian physician born in 1818 who worked in the Vienna General Hospital.
+                                    In the past people thought of illness as caused by "bad air" or evil spirits. But in the 1800s Doctors started looking more at anatomy,
+                                    doing autopsies and started making arguments based on data. Dr Semmelweis suspected that something was going wrong with the procedures at Vienna General Hospital.
+                                    Semmelweis wanted to figure out why so many women in maternity wards were dying from childbed fever (i.e., puerperal fever).
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!--end of modal-->
+
+                <div class="modal" id="mymodal3">
+                    <div class="model-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button class="close" type="button" data-dismiss="modal">X</button>
+                                <h2 class="modal-title">The Nobel prize</h2>
+                            </div>
+                            <div class="modal-body">
+                                <p>On November 27, 1895, Alfred Nobel signed his last will in Paris. When it was opened after his death, the will caused a lot of controversy,
+                                    as Nobel had left much of his wealth for the establishment of a prize. Alfred Nobel dictates that his entire remaining estate should be used to endow “prizes to those who,
+                                    during the preceding year, have conferred the greatest benefit to humankind”. Every year the Nobel Prize is given to scientists and scholars in the categories chemistry,
+                                    literature, physics, physiology or medicine, economics, and peace.
+                                </p>
+                                <a class="text-muted" href="https://github.com/gakas14/Dr-Ignaz-Semmelweis-Analysis">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!--end of modal-->
+
+
+                <!--projects deck card-->
+                <div class="card-deck">
+
+                  <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Project one</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                    <div class="card-footer">
+                      <a class="text-muted" href="https://github.com/gakas14/Cafe_Library">Go To</a>
+                    </div>
+                  </div> <!--end of card-->
+
+                  <div class="card">
+                    <img src="https://camo.githubusercontent.com/981d633e09be9669df0b80a5523eb79f78709649/68747470733a2f2f692e696d6775722e636f6d2f677567494135722e706e67" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Project two</h5>
+                        <p class="card-text">This project analyse the data collected by Dr Semmelweis' from 1841 to 1849.</p>
+                        <a class="text-muted" href="https://github.com/gakas14/Dr-Ignaz-Semmelweis-Analysis">Link</a>
+                    </div>
+                    <div class="card-footer">
+                      <a href="#" data-toggle="modal" data-target="#mymodal2"> More info...</a>
+                    </div>
+                  </div> <!--end of card-->
+
+                  <div class="card">
+                    <img src="https://camo.githubusercontent.com/f71dfcf01ebbfee7ee1997868763abeb5bc51f67/68747470733a2f2f692e696d6775722e636f6d2f333670437835512e6a7067" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">The Nobel prize</h5>
+                        <p class="card-text" style="text:justify;" >Let's see what patterns we can find in the data of the past Nobel laureates.
+                            What can we learn about the Nobel prize and our world more generally?
+                        </p>
+                        <a class="text-muted" href="https://github.com/gakas14/Analyzing-Nobel-Prizes">Link </a>
+                    </div>
+                    <div class="card-footer">
+                      <a href="#" data-toggle="modal" data-target="#mymodal3"> More info...</a>
+                    </div>
+                  </div> <!--end of card-->
+
+                </div> <!--end of card-deck-->
+
+            </div> <!--end of container-fluid-->
+    </section> <!--end of portfolio Section-->
+
+
+
+    <!--/* Hire Me */-->
+    <section class="section" id="contact">
+        <div class="contact-form">
+            <div class="contact-container">
+                <div class="row justify-content-md-center animatedParent">
+                    <div class="col-md-6 animated fadeInRight animated go" style="visibility: visible;-webkit-animation-duration: 1000ms; -moz-animation-duration: 1000ms; animation-duration: 1000ms;-webkit-animation-delay: 0.3s; -moz-animation-delay: 0.3s; animation-delay: 0.3s;">
+                        <div class="contact-block">
+                            <div class="section-header">
+                            <h2 class="section-title-small animated fadeIn animated go" style="visibility: visible;-webkit-animation-duration: 1000ms; -moz-animation-duration: 1000ms; animation-duration: 1000ms;-webkit-animation-delay: 0.3s; -moz-animation-delay: 0.3s; animation-delay: 0.3s;">
+                                Contact
+                                <span>Me</span>
+                            </h2>
+                            <hr class="lines animated zoomIn animated go" style="visibility: visible;-webkit-animation-delay: 0.3s; -moz-animation-delay: 0.3s; animation-delay: 0.3s;">
+                            <p class="section-subtitle animated fadeIn go">
+                                Abdoul Kaled Ali Seini
+                            </p>
+                            <p class="section-subtitle animated fadeIn go">
+                                Beijing China
+                            </p>
+                            <p class="section-subtitle animated fadeIn go">
+                                +86 13021075326 WhatsApp/Wechat
+                            </p>
+                            <p class="section-subtitle animated fadeIn go">
+                                gadokaled@gmail.com
+                            </p>
+                            </div>
+                        </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--<h1 class="section-title scrollimation scale-in in">-->
+            <!--Contact Me-->
+        <!--</h1>-->
+        <!--<div class="container-fluid">-->
+            <!--<div class="row">-->
+                <!--<div class="feature-box col-lg-6">-->
+                    <!--<div class="card" style="width: 18rem;">-->
+                        <!--<img src="..." class="card-img-top" alt="...">-->
+                        <!--<div class="card-body">-->
+                            <!--<h5 class="card-title">Card title</h5>-->
+                            <!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+                            <!--<a href="#" class="btn btn-primary">Go somewhere</a>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+    </section>
+
+    <!--Blog Section-->
+    <section class="backstretch" id="blog" style="background-image:url('https://images.unsplash.com/photo-1470092306007-055b6797ca72?ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80');">
+        <div class="jumbotron" >
+            <a class="blog-name" href="https://abdoulkaled-blog.herokuapp.com/">
+            <h1 class="display-6">AbdoulKaled's Blog</h1>
+            </a>
+                <p class="lead">A collection of random things.</p>
+            <!--<hr class="my-2">-->
+            <!--<p>It uses utility classes for typography and spacing to space content out within the larger container.</p>-->
+            <a class="btn btn-info" href="https://abdoulkaled-blog.herokuapp.com/" role="button">Open</a>
+        </div>
+    </section>
+
+
+
+
+
+<!-- Footer -->
+  <footer>
+    <div class="container" id="footer">
+      <!--<div class="row">-->
+        <!--<div class="col-lg-8 col-md-10 mx-auto">-->
+
+          <ul class="list-inline text-center">
+
+            <li class="list-inline-item">
+              <a href="#">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+
+            <li class="list-inline-item">
+              <a href="#">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+
+            <li class="list-inline-item">
+              <a href="https://github.com/gakas14">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+
+            <li class="list-inline-item">
+              <a href="https://www.linkedin.com/in/abdoul-kaled-ali-seini-7292806b/">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+
+          </ul>
+
+          <p class="copyright text-muted">Copyright &copy; GakasWeb 2021</p>
+
+            <!--</div>-->
+
+      <!--</div>-->
+    </div>
+  </footer>
+
+
+<!-- Bootstrap core JavaScript -->
+  <script src='vendor/jquery/jquery.min.js'></script>
+  <script src='vendor/bootstrap/js/bootstrap.bundle.min.js'></script>
+
+  <!-- Custom scripts for this template -->
+  <script src='js/clean-blog.min.js'></script>
+
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="/vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script type="text/javascript">
+			$("#success_message").hide();
+			$("#error_message").hide();
+			$(document).on('submit', '#kontakt-forma', function(e){
+				$("#success_message").hide();
+				$("#error_message").hide();
+				e.preventDefault();
+				$.ajax({
+					type:'POST',
+					url:'/en/contact/',
+					dataType: "json",
+					data:{
+						name:$('#id_contact_name').val(),
+						email:$('#id_contact_email').val(),
+						subject:$('#id_contact_subject').val(),
+						message:$('#id_contact_message').val(),
+						csrfmiddlewaretoken:$('input[name=csrfmiddlewaretoken]').val(),
+					},
+					success:function(data){
+						if(data.status == 'success') {
+							$('#success_message').html(data.msg);
+							$("#success_message").show();
+					    }
+					    else if(data.status == 'mail_fail') {
+							$('#error_message').html(data.msg);
+							$("#error_message").show();
+					    }
+						else{
+							$('#error_message').html('Error');
+							$("#error_message").show();
+						}
+					}
+				});
+			});
+		</script>
+
+</body>
+</html>
