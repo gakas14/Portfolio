@@ -56,7 +56,7 @@
       </nav>
 
 
-    <section class="jumbotron" id="title">
+    <section class="section" id="title">
 
         <div class="container-fluid">
 
@@ -78,17 +78,17 @@
     </section>
 
     <!--Service Section -->
-    <section class="white-section" id="service">
+    <section class="section" id="service">
+      <hr class="lines animated zoomIn animated go" style="visibility: visible;-webkit-animation-delay: 0.3s; -moz-animation-delay: 0.3s; animation-delay: 0.3s;">
          <h1 style="margin-bottom: 0px;">What I do well</h1>
+         <hr class="lines animated zoomIn animated go" style="visibility: visible;-webkit-animation-delay: 0.3s; -moz-animation-delay: 0.3s; animation-delay: 0.3s;">
         <div class="container-fluid">
             <div class="row">
                 <!--<div class="section-header animatedParent">-->
                 <div class="feature-box col-lg-4">
                     <i class="icon fas fa-info-circle fa-7x"></i>
                     <h3 class="feature-title">Data Science</h3>
-                    <p>If your project involves data, I CAN HELP, if you don't have any data, I'll scrape some for you.
-                        If you data is very raw, I'll be able to clean it analyze it, provide useful insights, and create stunning visualizations.
-                        If you need a machine learning model, I'll use state of the art techniques to develop the best model possible.
+                    <p class="text_service">If your project involves data, <span style="font-weight:bolder;">I CAN HELP</span>, if you don't have any data, I'll scrape some for you.If you data is very raw, I'll be able to clean it analyze it, provide useful insights, and create stunning visualizations.If you need a machine learning model, I'll use state of the art techniques to develop the best model possible.
                     </p>
                 </div>
 
@@ -96,13 +96,13 @@
                     <!--<img src="images/Web scraping_icon.png">-->
                     <i class="icon fas fa-blog fa-7x"></i>
                     <h3 class="feature-title">Web Scraping</h3>
-                    <p>By using Scrapy, Requests, Beautiful Soup, Selenium I can scrape any type of data.</p>
+                    <p class="text_service">By using Scrapy, Requests, Beautiful Soup, Selenium I can scrape any type of data.</p>
                 </div>
 
                 <div class="feature-box col-lg-4">
                     <i class="icon fab fa-python fa-7x"></i>
                     <h3 class="feature-title">Web development</h3>
-                    <p>Crafting websites fully responsive to any device. Web design and developing are based on Python, CSS, HTML, BOOTSTRAP, JavaScript.</p>
+                    <p class="text_service">Crafting websites fully responsive to any device. Web design and developing are based on Python, CSS, HTML, BOOTSTRAP, JavaScript.</p>
                 </div>
                <!--</div>-->
             </div>
@@ -113,13 +113,32 @@
 
 
     <!--Portfolio -->
-    <section class="white-section" id="portfolio">
+    <section class="section" id="portfolio">
         <div class="container-fluid">
             <!--<div class="section-header">-->
+              <hr class="lines animated zoomIn animated go" style="visibility: visible;-webkit-animation-delay: 0.3s; -moz-animation-delay: 0.3s; animation-delay: 0.3s;">
                 <h1>My Projects</h1>
+                <hr class="lines animated zoomIn animated go" style="visibility: visible;-webkit-animation-delay: 0.3s; -moz-animation-delay: 0.3s; animation-delay: 0.3s;">
             <!--</div>-->
 
                 <!--Creating a pop up model for each project-->
+                <div class="modal" id="mymodal1">
+                    <div class="model-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button class="close" type="button" data-dismiss="modal">X</button>
+                                <h2 class="modal-title">Movies budget and revenue data</h2>
+                            </div>
+                            <div class="modal-body">
+                                <p>
+                                  Using Seaborn linear Regression the question we want to answer in this project: Do higher film budgets lead to more revenue in the box office? In other words, should a movie studio spend more on a film to make more?
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div> <!--end of modal-->
+
                 <div class="modal" id="mymodal2">
                     <div class="model-dialog">
                         <div class="modal-content">
@@ -162,21 +181,23 @@
                 <div class="card-deck">
 
                   <div class="card">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="https://camo.githubusercontent.com/38adfd72dc52867d6221ce0f94551d6576a1a22b/68747470733a2f2f692e696d6775722e636f6d2f6b7137687245682e706e67" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">Project one</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <h5 class="card-title">Movies budget and revenue data</h5>
+                      <p class="card-text">Do higher film budgets lead to more revenue in the box office? In other words, should a movie studio spend more on a film to make more?
+                      </p>
+                      <a class="text-muted" href="https://github.com/gakas14/Cafe_Library">Link</a>
                     </div>
                     <div class="card-footer">
-                      <a class="text-muted" href="https://github.com/gakas14/Cafe_Library">Go To</a>
+                      <a href="#" data-toggle="modal" data-target="#mymodal1"> More info...</a>
                     </div>
                   </div> <!--end of card-->
 
                   <div class="card">
                     <img src="https://camo.githubusercontent.com/981d633e09be9669df0b80a5523eb79f78709649/68747470733a2f2f692e696d6775722e636f6d2f677567494135722e706e67" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Project two</h5>
-                        <p class="card-text">This project analyse the data collected by Dr Semmelweis' from 1841 to 1849.</p>
+                        <h5 class="card-title">Dr Semmelweis</h5>
+                        <p class="card-text">This project analyse the data collected by Dr Semmelweis' from 1841 to 1849. Dr Semmelweis wanted to figure out why so many women in maternity wards were dying from childbed fever</p>
                         <a class="text-muted" href="https://github.com/gakas14/Dr-Ignaz-Semmelweis-Analysis">Link</a>
                     </div>
                     <div class="card-footer">
@@ -187,9 +208,8 @@
                   <div class="card">
                     <img src="https://camo.githubusercontent.com/f71dfcf01ebbfee7ee1997868763abeb5bc51f67/68747470733a2f2f692e696d6775722e636f6d2f333670437835512e6a7067" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">The Nobel prize</h5>
-                        <p class="card-text" style="text:justify;" >Let's see what patterns we can find in the data of the past Nobel laureates.
-                            What can we learn about the Nobel prize and our world more generally?
+                        <h5 class="card-title">The Nobel Prize</h5>
+                        <p class="card-text" style="text:justify;" >Let's see what patterns we can find in the data of the past Nobel laureates.What can we learn about the Nobel prize and our world more generally?
                         </p>
                         <a class="text-muted" href="https://github.com/gakas14/Analyzing-Nobel-Prizes">Link </a>
                     </div>

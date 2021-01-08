@@ -36,7 +36,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .container-fluid{
 
-  padding: 5% 15%;
+  padding: 5% 12%;
 }
 
 /* Sections */
@@ -46,7 +46,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-.white-section {
+.section {
   background-color: #fff;
 }
 
@@ -108,16 +108,18 @@ h1, h2, h3, h4, h5, h6 {
 
 #service {
   background-color: #f4f4f2;
-  padding-top: 5%;
+  padding: 5%;
 }
 
+.text_service{
+  text-align: justify;
+}
+
+
+/*Portfolio Section*/
 
 #portfolio {
     background-color: #5f9ea0;
-}
-
-.card{
-
 }
 
 
@@ -171,10 +173,18 @@ h1, h2, h3, h4, h5, h6 {
    background-color: #495464;
    padding: 1%;
 }
+.copyright{
+  color: #fff;
+}
 
+@media (max-width: 1028px) {
 
+  #title {
+    text-align: center;
+  }
 
-@media (max-width: 1028px){
-
-
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
 }
